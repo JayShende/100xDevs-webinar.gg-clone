@@ -5,10 +5,10 @@ import { RhsCompo } from "./rhs.";
 export const Rhs_main = () => {
   return (
     <div className="w-full h-full">
-      <div className="bg-gray-700 w-full  sm:h-[20%] h-[10%]"></div>
-      <div className="flex flex-col sm:flex-row h-[80%] pt-8 bg-[#fbfcfe]">
+      <div className="bg-gray-700 w-full  sm:h-[20%] h-[10%] "></div>
+      <div className="flex flex-col sm:flex-row h-[80%] sm:h-[80%] pt-8 bg-[#fbfcfe] ">
         <ProfileCard />
-        <div className="h-full w-[350px] sm:w-[600px]  ml-10">
+        <div className="h-full w-[350px] sm:w-[600px]  ml-5 sm:ml-10">
           <div className="font-Poppins">
             <p>Monday, 14 October</p>
             <h1 className="text-2xl sm:text-3xl  font-bold mt-2 sm:mt-5 text-[#022c5c]">
@@ -30,7 +30,7 @@ export const Rhs_main = () => {
             <Content />
           </div>
         </div>
-        <div className=" mt-6 sm:mt-32 w-[350px] sm:w-80 h-full sm:h-56 bg-white border-grey-200 border-2 shadow-xl rounded-xl ml-10">
+        <div className=" mt-6 sm:mt-32 w-[350px] sm:w-80 h-full sm:h-56 bg-white border-grey-200 border-2 shadow-xl rounded-xl ml-5 sm:ml-10">
           <RhsCompo />
         </div>
       </div>
